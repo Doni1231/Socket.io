@@ -346,27 +346,27 @@
     source-map-support "^0.5.21"
     typescript "~4.7.3"
 
-"@loopback/context@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/context/-/context-5.0.1.tgz#cbf5ea2d1a7ebf05a7e4e3603e5d98eeb9dcca26"
-  integrity sha512-kASEQ8uRSZz8A9n9m1H5sCMEPrrpTsTNJA8/oLToniw5AwYgNX+ME5i+7gUoRxHzQhx8h0/40cClhpeKyFmuiA==
+"@loopback/context@^5.0.9":
+  version "5.0.9"
+  resolved "https://registry.yarnpkg.com/@loopback/context/-/context-5.0.9.tgz#fba55e8c574a0b44807856f041ac127b0143416a"
+  integrity sha512-Hs62SRG2YFy3cRa68Edts9TUCBpPCDK0AA/kxEfnEylpcWPJwz5l+77B6DUD7PbIvN8Zsk6EQJu4wFSduDzx+w==
   dependencies:
-    "@loopback/metadata" "^5.0.1"
+    "@loopback/metadata" "^5.0.9"
     "@types/debug" "^4.1.7"
     debug "^4.3.4"
-    hyperid "^3.0.1"
+    hyperid "^3.1.1"
     p-event "^4.2.0"
-    tslib "^2.4.0"
-    uuid "^8.3.2"
+    tslib "^2.5.0"
+    uuid "^9.0.0"
 
-"@loopback/core@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/core/-/core-4.0.1.tgz#b8635fc0d37803bc4549fa5be00ca9272b6139d5"
-  integrity sha512-eEXVf0D2zjJ9NDmvix2+BPF1KcmSIxdyo+bavFeK+AQN2EFQScDWuoFqVxnKxq/IjYGtY89pMVbKqK/d3bPtjQ==
+"@loopback/core@^4.0.8":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@loopback/core/-/core-4.0.9.tgz#5fc87f6822dba6d7350079fb1ca28fcec1e42a01"
+  integrity sha512-DlSuAngwiNrVbp/esVJLwXmp0ieshRI1cVEPALvuQgXKlWX8eLVco3LXv7c6ZZ4Tp0hCaZxura2aY5SO0YqsuQ==
   dependencies:
-    "@loopback/context" "^5.0.1"
+    "@loopback/context" "^5.0.9"
     debug "^4.3.4"
-    tslib "^2.4.0"
+    tslib "^2.5.0"
 
 "@loopback/eslint-config@^13.0.1":
   version "13.0.1"
@@ -424,15 +424,15 @@
     stoppable "^1.1.0"
     tslib "^2.4.0"
 
-"@loopback/metadata@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@loopback/metadata/-/metadata-5.0.1.tgz#ecb95cef1626b4dbea204ecd0540e8bbeab90efa"
-  integrity sha512-dS1wLY8XWuMU/4O/uTEqqz3Lt4E31pRGXwmuJmgUYElIZ0Nuttu9kiudiyyq16SlsVDjuRG4xrDQhkuHhxrt9A==
+"@loopback/metadata@^5.0.9":
+  version "5.0.9"
+  resolved "https://registry.yarnpkg.com/@loopback/metadata/-/metadata-5.0.9.tgz#13d5fd2596633a8249ff946237352bb5d45dfe46"
+  integrity sha512-syRNaIzN7QSGhiw4GNVkXEKZg7XMwqOfND4B61nCnmwEAx4gLk/vU1h/EpmYnq+H5il3CaiLwQeNW8VJinNvlw==
   dependencies:
     debug "^4.3.4"
     lodash "^4.17.21"
     reflect-metadata "^0.1.13"
-    tslib "^2.4.0"
+    tslib "^2.5.0"
 
 "@loopback/model-api-builder@^4.0.1":
   version "4.0.1"
@@ -2381,10 +2381,10 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-hyperid@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/hyperid/-/hyperid-3.0.1.tgz#6e9f965d79291e0465f4325568d028168b6b851b"
-  integrity sha512-I+tl7TS5nsoVhkxqX1rS3Qmqlq44eoPUcgPthW8v3IW8CvWL7lwtd6HQbkDUMrBKJTG0vgEaRsjT35imW/D+9Q==
+hyperid@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/hyperid/-/hyperid-3.1.1.tgz#50fe8a75ff3ada74dacaf5a3761fb031bdf541c7"
+  integrity sha512-RveV33kIksycSf7HLkq1sHB5wW0OwuX8ot8MYnY++gaaPXGFfKpBncHrAWxdpuEeRlazUMGWefwP1w6o6GaumA==
   dependencies:
     uuid "^8.3.2"
     uuid-parse "^1.1.0"
@@ -4170,6 +4170,11 @@ tslib@^2.0.3, tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
+tslib@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
+  integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
+
 tsutils@^3.21.0:
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
@@ -4308,6 +4313,11 @@ uuid@^8.3.0, uuid@^8.3.1, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
